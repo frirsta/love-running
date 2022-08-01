@@ -193,3 +193,10 @@ hr{
     border-radius: 50%;
 }
 
+/* Icons */
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
