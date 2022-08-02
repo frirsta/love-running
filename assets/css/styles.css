@@ -198,6 +198,7 @@ hr{
 .icon{
     width: 25px;
     height: 25px;
+    
 }
 
 #times{
@@ -224,4 +225,23 @@ hr{
 
 #times h2{
     color: #fafafa;
+}
+
+footer{
+    height: 150px;
+}
+
+.social-network{
+    text-align: center;
+}
+
+.social-network > li {
+    display: inline;
+}
+
+svg{
+    color: #3a3a3a;
+    margin: 1%;
+    padding: 5%;
+   
 }
