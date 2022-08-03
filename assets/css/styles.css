@@ -198,6 +198,7 @@ hr{
 .icon{
     width: 25px;
     height: 25px;
+    padding: 0;
     
 }
 
@@ -208,6 +209,7 @@ hr{
     background-position: center;
     width: 100%;
     overflow: hidden;
+    
 }
 
 #times div {
@@ -240,9 +242,10 @@ footer{
 }
 
 svg{
-    color: #3a3a3a;
-    margin: 1%;
+    color: #fafafa;
+    margin: 0;
     padding: 5%;
+    
    
 }
 
@@ -284,10 +287,20 @@ svg{
         padding: 0;
     }
 
+    #times > div {
+    width: 100%;
+    clear: both;
+    padding: 0;
+    height: 150px;
+    }
+
+    
+
     hr {
         display: none;
     }
 }
+
 
 /* For medium screen sizes from 950px wide and down */
 
